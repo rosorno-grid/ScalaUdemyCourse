@@ -60,5 +60,14 @@ object PartialFunctions extends App {
   }
   scala.io.Source.stdin.getLines().foreach(line => println(chatbot(line)))
 
+  val aSimpleFunction = (x: Int, y: Int) => x + y
+  def aSimpleMethod(x: Int, y: Int) = x + y
+  def aCurriedMethod(x: Int)(y: Int) = x + y
+  // .curried() convierte la funcion en una funcion curried
+  val add7 = (x: Int) => aSimpleFunction(x, 7)
+
+  val add7_m = (x: Int) => aSimpleMethod(x, 7)
+  val add7_c = (x: Int) => aCurriedMethod(x)(7)
+
 }
 
