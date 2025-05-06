@@ -10,7 +10,7 @@ The project is organized into two main packages:
 Contains executable Scala files that demonstrate concepts covered in the course videos. Each file corresponds to specific lecture topics and can be run independently.
 
 ### `exercises` Package
-Contains practical exercises designed to reinforce the concepts learned in the lectures. These are standalone executable files that allow you to practice Scala programming.
+Contains practical exercises designed to reinforce the concepts learned in the lectures. These are standalone files that allow you to practice Scala programming. 
 
 ## Running the Code
 
